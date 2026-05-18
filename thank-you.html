@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التوب الكوري | شكراً لطلبك</title>
+    <link rel="icon" type="image/svg+xml" href="images/icons/favicon/thankyou.svg">
+    
+    <!-- SEO Meta Tags -->
+<meta name="description" content="سلة التسوق - مراجعة المنتجات التي اخترتها قبل إتمام عملية الشراء. يمكنك تعديل الكميات أو إزالة المنتجات بسهولة.">
+<meta name="keywords" content="سلة التسوق, مراجعة الطلب, إتمام الشراء, التوب الكوري">
+<meta name="robots" content="noindex, follow">
+<link rel="canonical" href="https://topkorean.com/cart.html">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== زخرفة خلفية ===== -->
+<div class="bg-pattern"></div>
+<div class="bg-circles"></div>
+<div class="korean-pattern-bg"></div>
+
+<!-- ===== القائمة الجانبية ===== -->
+<div class="side-rail" id="sideRail">
+    <div class="rail-toggle" id="railToggle"><i class="fas fa-bars"></i></div>
+    <div class="rail-menu" id="railMenu">
+        <div class="rail-header">
+            <h5>الاختصارات</h5>
+            <div class="theme-mode" id="themeMode"><i class="fas fa-moon"></i></div>
+        </div>
+        <ul class="rail-links">
+            <li><a href="index.html" class="rail-link"><i class="fas fa-home"></i><span>الرئيسية</span></a></li>
+            <li><a href="products.html" class="rail-link"><i class="fas fa-th-large"></i><span>المنتجات</span></a></li>
+        </ul>
+        <div class="rail-footer"><small>التوب الكوري © 2026</small></div>
+    </div>
+</div>
+
+<!-- ===== الهيدر ===== -->
+<header id="mainHeader">
+    <div class="container">
+        <div class="header-left">
+            <div class="brand-mini">
+                <img src="images/Kia-logo.png" alt="كيا" class="mini-logo">
+                <span class="plus">+</span>
+                <img src="images/hyundai.webp" alt="هيونداي" class="mini-logo">
+            </div>
+            <div class="shop-tag">
+                <a href="index.html" title="العودة للصفحة الرئيسية">
+                <h2>التوب الكوري</h2>
+                <span>Top Korean</span>
+                </a>
+            </div>
+        </div>
+        <div class="search-mini">
+            <input type="text" placeholder="ابحث...">
+            <button><i class="fas fa-search"></i></button>
+        </div>
+        <div class="header-right">
+            <a href="cart.html" class="icon-mini cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-dot">0</span>
+            </a>
+            <button class="menu-mini" id="mobileToggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </div>
+</header>
+
+<!-- ===== صفحة شكراً ===== -->
+<section class="thankyou-page">
+    <div class="container">
+        <div class="thankyou-container" data-aos="fade-up">
+            <div class="thankyou-icon">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <h1>شكراً لتسوقك معنا!</h1>
+            <p>تم استلام طلبك بنجاح</p>
+            
+            <div class="order-info" id="orderInfo">
+                <!-- سيتم تعبئة معلومات الطلب هنا -->
+            </div>
+            
+            <div class="thankyou-actions">
+                <a href="index.html" class="btn-primary">
+                    <i class="fas fa-home"></i> العودة للرئيسية
+                </a>
+                <a href="products.html" class="btn-outline">
+                    <i class="fas fa-shopping-bag"></i> متابعة التسوق
+                </a>
+            </div>
+            
+            <div class="whatsapp-contact">
+                <p>للتواصل أو الاستفسار عن طلبك:</p>
+                <a href="https://wa.me/966534625694" target="_blank" class="whatsapp-link">
+                    <i class="fab fa-whatsapp"></i> واتساب: <span dir="ltr">053 462 5694</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== الفوتر ===== -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>التوب الكوري</h4>
+                <p>متخصصون في قطع غيار كيا وهيونداي الأصلية.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <!-- <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-facebook"></i></a> -->
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>روابط مهمة</h4>
+                <ul>
+                    <li><a href="returns.html">سياسة الإرجاع</a></li>
+                    <li><a href="terms.html">شروط الاستخدام</a></li>
+                    <li><a href="faq.html">الأسئلة الشائعة</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>تواصل معنا</h4>
+                <ul class="contact-list">
+                    <li><span dir="ltr">053 462 5694</span><i class="fas fa-phone"></i></li>
+                    <li>zxah33050@gmail.com<i class="fas fa-envelope"></i></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>طرق الدفع</h4>
+                <div class="payment-icons">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <i class="fas fa-university"></i>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom"><p>© 2026 التوب الكوري | Top Korean - جميع الحقوق محفوظة</p></div>
+    </div>
+</footer>
+
+<!-- ===== القائمة السفلية للجوال (bottom-nav) ===== -->
+<div class="bottom-nav" id="bottomNav">
+    <div class="bottom-nav-items">
+        <a href="index.html" class="bottom-nav-item" data-target="hero">
+            <i class="fas fa-home"></i>
+            <span>الرئيسية</span>
+        </a>
+        <a href="products.html" class="bottom-nav-item">
+            <i class="fas fa-th-large"></i>
+            <span>المنتجات</span>
+        </a>
+        <a href="cart.html" class="bottom-nav-item">
+            <i class="fas fa-shopping-cart"></i>
+            <span>السلة</span>
+        </a>
+        <a href="returns.html" class="bottom-nav-item">
+            <i class="fas fa-undo-alt"></i>
+            <span>الإرجاع</span>
+        </a>
+        <a href="terms.html" class="bottom-nav-item">
+            <i class="fas fa-file-alt"></i>
+            <span>الشروط</span>
+        </a>
+    </div>
+</div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({ duration: 800, once: true, offset: 100 });</script>
+<script src="js/data.js"></script>
+<script src="js/main.js"></script>
+
+<script>
+    // عرض معلومات الطلب من localStorage
+    document.addEventListener('DOMContentLoaded', function() {
+        const orderData = JSON.parse(localStorage.getItem('lastOrder')) || {};
+        const orderInfoDiv = document.getElementById('orderInfo');
+        
+        if (orderData.orderNumber) {
+            orderInfoDiv.innerHTML = `
+                <div class="order-number">
+                    <span>رقم الطلب:</span>
+                    <strong>${orderData.orderNumber}</strong>
+                </div>
+                <div class="order-date">
+                    <span>تاريخ الطلب:</span>
+                    <strong>${orderData.date || new Date().toLocaleDateString('ar-SA')}</strong>
+                </div>
+                <div class="order-status">
+                    <span>حالة الطلب:</span>
+                    <strong class="status-badge">جاري التجهيز</strong>
+                </div>
+                <div class="order-note">
+                    <i class="fas fa-info-circle"></i>
+                    <span>سيتم التواصل معك عبر واتساب لتأكيد الطلب ومتابعة الشحن</span>
+                </div>
+            `;
+        } else {
+            orderInfoDiv.innerHTML = `
+                <div class="order-note">
+                    <i class="fas fa-info-circle"></i>
+                    <span>سيتم التواصل معك عبر واتساب لتأكيد الطلب ومتابعة الشحن</span>
+                </div>
+            `;
+        }
+    });
+</script>
+</body>
+</html>

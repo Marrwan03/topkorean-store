@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>التوب الكوري | جميع المنتجات - قطع غيار كيا وهيونداي</title>
+    <link rel="icon" type="image/svg+xml" href="images/icons/favicon/products.svg">
+    
+    <!-- SEO Meta Tags -->
+<meta name="description" content="جميع قطع غيار كيا وهيونداي الأصلية في مكان واحد. تصفح منتجاتنا من فلاتر، مساعدات، فرامل، كهرباء، محركات، تبريد، هيكل. توصيل سريع لجميع مدن المملكة.">
+<meta name="keywords" content="قطع غيار كيا, قطع غيار هيونداي, سبورتاج, النترا, توسان, سوناتا, سيراتو, فلاتر, مساعدات, فرامل, كهرباء, محركات">
+<meta name="robots" content="index, follow">
+<meta property="og:title" content="التوب الكوري | جميع قطع غيار كيا وهيونداي">
+<meta property="og:description" content="تصفح جميع قطع غيار كيا وهيونداي الأصلية. توصيل سريع وضمان الجودة.">
+<link rel="canonical" href="https://topkorean.com/products.html">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <!-- CSS الرئيسي -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Preconnect -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<!-- ===== زخرفة خلفية ===== -->
+<div class="bg-pattern"></div>
+<div class="bg-circles"></div>
+<div class="korean-pattern-bg"></div>
+
+<!-- ===== القائمة الجانبية (للكمبيوتر) ===== -->
+<div class="side-rail" id="sideRail">
+    <div class="rail-toggle" id="railToggle">
+        <i class="fas fa-bars"></i>
+    </div>
+    <div class="rail-menu" id="railMenu">
+        <div class="rail-header">
+            <h5>الاختصارات</h5>
+            <div class="theme-mode" id="themeMode">
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+        <ul class="rail-links">
+            <li><a href="/index.html" class="rail-link"><i class="fas fa-home"></i><span>الرئيسية</span></a></li>
+            <li><a href="products.html" class="rail-link active"><i class="fas fa-th-large"></i><span>المنتجات</span></a></li>
+            <li><a href="cart.html" class="rail-link"><i class="fas fa-shopping-cart"></i><span>السلة</span></a></li>
+            <li><a href="returns.html" class="rail-link"><i class="fas fa-undo-alt"></i><span>سياسة الإرجاع</span></a></li>
+            <li><a href="terms.html" class="rail-link"><i class="fas fa-file-alt"></i><span>الشروط</span></a></li>
+        </ul>
+        <div class="rail-footer">
+            <small>التوب الكوري © 2026</small>
+        </div>
+    </div>
+</div>
+
+<!-- ===== الهيدر ===== -->
+<header id="mainHeader">
+    <div class="container">
+        <div class="header-left">
+            <div class="brand-mini">
+                <img src="images/Kia-logo.png" alt="كيا" class="mini-logo" loading="lazy">
+                <span class="plus">+</span>
+                <img src="images/hyundai.webp" alt="هيونداي" class="mini-logo" loading="lazy">
+            </div>
+            <div class="shop-tag">
+                <a href="index.html" title="العودة للصفحة الرئيسية">
+                <h2>التوب الكوري</h2>
+                <span>Top Korean</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="search-mini">
+            <input type="text" id="searchInput" placeholder="ابحث باسم القطعة أو رقم OEM...">
+            <button id="searchBtn"><i class="fas fa-search"></i></button>
+        </div>
+
+        <div class="header-right">
+            <a href="cart.html" class="icon-mini cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-dot">0</span>
+            </a>
+        </div>
+    </div>
+</header>
+
+<!-- ===== صفحة المنتجات ===== -->
+<section class="products-page">
+    <div class="container">
+        <div class="page-header" data-aos="fade-up">
+            <h1>جميع المنتجات</h1>
+            <p>تصفح قطع غيار كيا وهيونداي الأصلية</p>
+        </div>
+
+        <div class="products-layout" data-aos="fade-up">
+           <!-- الفلاتر الجانبية - تصميم صوري جذاب -->
+<!-- الفلاتر الجانبية - Checkbox واضح مع صور -->
+<aside class="filters-sidebar">
+    <div class="filters-header">
+        <h3><i class="fas fa-sliders-h"></i> تصفية المنتجات</h3>
+        <button id="resetFilters" class="reset-filters">
+            <i class="fas fa-undo-alt"></i> إعادة تعيين
+        </button>
+    </div>
+
+    <!-- فلتر الماركة - Checkbox مع صور -->
+    <div class="filter-group">
+        <h4>
+            <i class="fas fa-car"></i> الماركة
+        </h4>
+        <div class="filter-content active">
+            <div class="filter-options brand-options">
+                <label class="filter-check">
+                    <input type="checkbox" value="كيا" class="brand-filter">
+                    <span class="checkmark"></span>
+                    <img src="images/Kia-logo.png" alt="كيا" class="filter-img mini-logo">
+                    <span class="filter-name">كيا</span>
+                    <span class="filter-count" id="kiaCount"></span>
+                </label>
+                <label class="filter-check">
+                    <input type="checkbox" value="هيونداي" class="brand-filter">
+                    <span class="checkmark"></span>
+                    <img src="images/hyundai.webp" alt="هيونداي" class="filter-img mini-logo">
+                    <span class="filter-name">هيونداي</span>
+                    <span class="filter-count" id="hyundaiCount"></span>
+                </label>
+            </div>
+        </div>
+    </div>
+
+    <!-- فلتر الفئة - Checkbox مع أيقونات -->
+    <div class="filter-group">
+        <h4>
+            <i class="fas fa-tags"></i> الفئة
+        </h4>
+        <div class="filter-content active">
+            <div class="filter-options categories-options">
+                <label class="filter-check">
+                    <input type="checkbox" value="فلاتر" class="category-filter">
+                    <span class="checkmark"></span>
+                    <i class="fas fa-filter"></i>
+                    <span class="filter-name">فلاتر</span>
+                </label>
+                <label class="filter-check">
+                    <input type="checkbox" value="مساعدات" class="category-filter">
+                    <span class="checkmark"></span>
+                    <i class="fas fa-car"></i>
+                    <span class="filter-name">مساعدات</span>
+                </label>
+                <label class="filter-check">
+                    <input type="checkbox" value="فرامل" class="category-filter">
+                    <span class="checkmark"></span>
+                    <i class="fas fa-stop"></i>
+                    <span class="filter-name">فرامل</span>
+                </label>
+                <label class="filter-check">
+                    <input type="checkbox" value="كهرباء" class="category-filter">
+                    <span class="checkmark"></span>
+                    <i class="fas fa-bolt"></i>
+                    <span class="filter-name">كهرباء</span>
+                </label>
+                <label class="filter-check">
+    <input type="checkbox" value="محركات" class="category-filter">
+    <span class="checkmark"></span>
+    <i class="fas fa-oil-can"></i>
+    <span class="filter-name">محركات</span>
+</label>
+                <label class="filter-check">
+                    <input type="checkbox" value="تبريد" class="category-filter">
+                    <span class="checkmark"></span>
+                    <i class="fas fa-temperature-low"></i>
+                    <span class="filter-name">تبريد</span>
+                </label>
+                <label class="filter-check">
+    <input type="checkbox" value="هيكل" class="category-filter">
+    <span class="checkmark"></span>
+    <i class="fas fa-truck"></i>
+    <span class="filter-name">هيكل</span>
+</label>
+            </div>
+        </div>
+    </div>
+
+    <!-- زر تطبيق الفلترة -->
+    <div class="filter-actions">
+        <button id="applyFilters" class="apply-filters-btn">
+    تطبيق الفلترة
+    <span class="btn-icon"><i class="fas fa-filter"></i></span>
+       </button>
+        <div class="active-filters" id="activeFilters"></div>
+    </div>
+</aside>
+            <!-- المنتجات -->
+            <div class="products-wrapper">
+                <div class="products-header">
+                    <div class="results-count" id="resultsCount"></div>
+                    <div class="sort-options">
+                        <select id="sortSelect">
+                            <option value="default">الترتيب الافتراضي</option>
+                            <option value="price-asc">السعر: من الأقل للأعلى</option>
+                            <option value="price-desc">السعر: من الأعلى للأقل</option>
+                            <option value="name-asc">الاسم: أ-ي</option>
+                            <option value="name-desc">الاسم: ي-أ</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="products-grid" id="allProductsGrid"></div>
+                
+                <div class="no-results" id="noResults" style="display: none;">
+                    <i class="fas fa-search"></i>
+                    <h3>لا توجد منتجات</h3>
+                    <p>لم نجد منتجات تطابق معايير البحث</p>
+                    <button class="btn-primary" id="clearFilters">مسح جميع الفلاتر</button>
+                </div>
+                <!-- Pagination - ترقيم الصفحات -->
+<div class="pagination-container" id="paginationContainer">
+    <button class="page-btn prev-page" id="prevPage">
+        <i class="fas fa-chevron-right"></i> السابق
+    </button>
+    <div class="page-numbers" id="pageNumbers"></div>
+    <button class="page-btn next-page" id="nextPage">
+        التالي <i class="fas fa-chevron-left"></i>
+    </button>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== الفوتر ===== -->
+<footer id="footer">
+    <div class="container">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h4>التوب الكوري</h4>
+                <p>متخصصون في قطع غيار كيا وهيونداي الأصلية .</p>
+                <div class="social-icons">
+                    <a href="https://wa.me/966534625694" target="_blank" class="social-icon"><i class="fab fa-whatsapp"></i></a>
+                    <!-- <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a> -->
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>طرق الدفع</h4>
+                <div class="payment-icons">
+                    <i class="fas fa-money-bill-wave"></i>
+                    <i class="fas fa-university"></i>
+                </div>
+                
+            </div>
+            <div class="footer-col">
+                <h4>تواصل معنا</h4>
+                <ul class="contact-list">
+                    <li><span dir="ltr">053 462 5694</span><i class="fas fa-phone"></i></li>
+                    <li>zxah33050@gmail.com<i class="fas fa-envelope"></i></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>العمل الحر</h4>
+                <div class="freelance-badge">
+                    <img src="images/freelance.svg" alt="" class="mini-logo" loading="lazy">
+                    <div>
+                        <p>شهادة عمل حر معتمدة</p>
+                        <small>رقم الترخيص: 2026-12345</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 التوب الكوري | Top Korean - جميع الحقوق محفوظة</p>
+        </div>
+    </div>
+</footer>
+
+<!-- ===== القائمة السفلية للجوال ===== -->
+<div class="bottom-nav" id="bottomNav">
+    <div class="bottom-nav-items">
+        <a href="index.html" class="bottom-nav-item">
+            <i class="fas fa-home"></i>
+            <span>الرئيسية</span>
+        </a>
+        <a href="products.html" class="bottom-nav-item active">
+            <i class="fas fa-th-large"></i>
+            <span>المنتجات</span>
+        </a>
+        <a href="cart.html" class="bottom-nav-item"><i class="fas fa-shopping-cart"></i><span>السلة</span></a>
+        <a href="returns.html" class="bottom-nav-item"><i class="fas fa-undo-alt"></i><span>الإرجاع</span></a>
+        <a href="terms.html" class="bottom-nav-item"><i class="fas fa-file-alt"></i><span>الشروط</span></a>
+    </div>
+</div>
+
+<!-- AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({ duration: 800, once: true, offset: 100 });</script>
+
+<!-- JavaScript -->
+<script src="js/data.js"></script>
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
