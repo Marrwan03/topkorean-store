@@ -492,13 +492,12 @@ function updateResultsCount() {
 
 function getItemsPerPage() {
     const width = window.innerWidth;
-    
-    if (width >= 800) {
-        return 9;      
-    } else if (width >= 576) {
-        return 6;      
-    } else if (width >= 375) {
-        return 4;      
+    if(width >= 1000)
+    {
+        return 8:
+    }
+    else if (width >= 800) {
+        return 6;          
     } else {
         return 4;    
     }
