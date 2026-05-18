@@ -2977,7 +2977,7 @@ body.modal-open {
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 950px) {
     .container { width: 95%; }
     header .container { flex-wrap: wrap; gap: 10px; }
     .search-mini { order: 3; flex: 1 1 100%; }
