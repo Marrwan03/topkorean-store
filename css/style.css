@@ -2449,6 +2449,162 @@ body.modal-open {
 }
 
 /* ===== [16] RESPONSIVE MEDIA QUERIES ===== */
+
+/* ===== [16-A] MEDIA QUERY للشاشات الكبيرة (من 1000px إلى 1200px) ===== */
+@media (min-width: 1000px) and (max-width: 1200px) {
+    .container {
+        max-width: 1100px;
+    }
+    
+    /* تحسين شبكة المنتجات */
+    .card-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 18px;
+    }
+    
+    /* تحسين حجم الصور في البطاقات */
+    .product-card {
+        height: 280px;
+    }
+    
+    .product-title {
+        font-size: 14px;
+    }
+    
+    .product-price {
+        font-size: 16px;
+    }
+    
+    /* تحسين تخطيط الفلاتر */
+    .products-layout {
+        grid-template-columns: 260px 1fr;
+        gap: 25px;
+    }
+    
+    /* تحسين حجم الخط */
+    .hero-text h1 {
+        font-size: 36px;
+    }
+    
+    .section-header h2 {
+        font-size: 28px;
+    }
+    
+    /* تحسين المميزات */
+    .features-mini {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+    
+    /* تحسين آراء العملاء */
+    .testimonials-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+    
+    /* تحسين الفوتر */
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+    
+    /* تحسين المنتجات المميزة */
+    .products-header {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    /* تحسين الصفحة الرئيسية */
+    .hero .container {
+        flex-direction: row;
+        text-align: right;
+    }
+    
+    .hero-text {
+        text-align: right;
+    }
+    
+    .hero-actions {
+        justify-content: flex-start;
+    }
+    
+    .hero-stats {
+        justify-content: flex-start;
+    }
+}
+
+/* ===== [16-B] MEDIA QUERY للشاشات الكبيرة جداً (1200px فما فوق) ===== */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1200px;
+    }
+    
+    /* شبكة المنتجات */
+    .card-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+    
+    .products-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 25px;
+    }
+    
+    /* تخطيط الفلاتر */
+    .products-layout {
+        grid-template-columns: 280px 1fr;
+        gap: 30px;
+    }
+    
+    /* تحسين المميزات */
+    .features-mini {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+    
+    /* تحسين آراء العملاء */
+    .testimonials-grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+    
+    /* الفوتر */
+    .footer-grid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+    
+    /* تحسين حجم الخطوط */
+    .hero-text h1 {
+        font-size: 42px;
+    }
+    
+    .hero-text p {
+        font-size: 16px;
+    }
+    
+    .section-header h2 {
+        font-size: 32px;
+    }
+    
+    .product-title {
+        font-size: 15px;
+    }
+    
+    .product-price {
+        font-size: 18px;
+    }
+    
+    .add-to-cart {
+        font-size: 13px;
+    }
+}
+
 @media (max-width: 800px) {
     .container { width: 95%; }
     header .container { flex-wrap: wrap; gap: 10px; }
