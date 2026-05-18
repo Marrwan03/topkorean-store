@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://marrwan03.github.io/topkorean-store/</loc>
+  <lastmod>2026-05-18T11:12:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://marrwan03.github.io/topkorean-store/cart.html</loc>
+  <lastmod>2026-05-18T11:12:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://marrwan03.github.io/topkorean-store/products.html</loc>
+  <lastmod>2026-05-18T11:12:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://marrwan03.github.io/topkorean-store/products.html?brand=%D9%83%D9%8A%D8%A7</loc>
+  <lastmod>2026-05-18T11:12:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://marrwan03.github.io/topkorean-store/products.html?brand=%D9%87%D9%8A%D9%88%D9%86%D8%AF%D8%A7%D9%8A</loc>
+  <lastmod>2026-05-18T11:12:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://marrwan03.github.io/topkorean-store/returns.html</loc>
+  <lastmod>2026-05-18T11:12:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://marrwan03.github.io/topkorean-store/terms.html</loc>
+  <lastmod>2026-05-18T11:12:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://marrwan03.github.io/topkorean-store/faq.html</loc>
+  <lastmod>2026-05-18T11:12:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://marrwan03.github.io/topkorean-store/index.html</loc>
+  <lastmod>2026-05-18T11:12:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>
